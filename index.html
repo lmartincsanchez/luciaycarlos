@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lucía & Carlos</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Great+Vibes&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --brown: #7a3b26;
+      --light-brown: #9a4a30;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Playfair Display", serif;
+      background: #ffffff;
+      color: #000;
+    }
+
+    .container {
+      max-width: 480px;
+      margin: 0 auto;
+      padding: 3rem 1.5rem;
+      text-align: center;
+    }
+
+    .intro {
+      font-size: 1.4rem;
+      margin-bottom: 2rem;
+    }
+
+    .names {
+      font-family: "Great Vibes", cursive;
+      font-size: 4.2rem;
+      line-height: 1;
+      color: var(--brown);
+      margin-bottom: 2.5rem;
+    }
+
+    .details {
+      font-size: 1.3rem;
+      margin-bottom: 2rem;
+    }
+
+    .details p {
+      margin: 0.4rem 0;
+    }
+
+    .wheat {
+      margin: 2.5rem 0;
+    }
+
+    .wheat img {
+      width: 90px;
+      height: auto;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 2rem;
+      padding: 1rem 2.5rem;
+      background: var(--brown);
+      color: #fff;
+      border-radius: 16px;
+      text-decoration: none;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+    }
+
+    .more-info {
+      margin-top: 3rem;
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--brown);
+      position: relative;
+      display: inline-block;
+    }
+
+    .more-info::after {
+      content: "";
+      display: block;
+      width: 100%;
+      height: 2px;
+      background: var(--brown);
+      margin-top: 0.3rem;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="intro">¡Nos casamos!</div>
+
+    <div class="names">
+      Lucía<br>& Carlos
+    </div>
+
+    <div class="details">
+      <p><strong>Sábado 16 de Mayo de 2026</strong></p>
+      <p>Castillo del Buen Amor</p>
+      <p>(Topas, Salamanca)</p>
+    </div>
+
+    <div class="wheat">
+      <!-- Replace with your own wheat image if desired -->
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Wheat_ears.svg/512px-Wheat_ears.svg.png" alt="Trigo">
+    </div>
+
+    <a href="#rsvp" class="button">CONFIRMAR ASISTENCIA</a>
+
+    <div class="more-info">MÁS INFORMACIÓN</div>
+  </div>
+
+</body>
+</html>
