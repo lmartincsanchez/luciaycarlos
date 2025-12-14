@@ -1,91 +1,86 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Lucía & Carlos</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lucía & Carlos</title>
 
-  <!-- Tailwind CDN -->
-  <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
 
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Great+Vibes&display=swap" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Great+Vibes&display=swap"
+        rel="stylesheet">
 
-  <!-- Tailwind config -->
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          fontFamily: {
-            serif: ['Playfair Display', 'serif'],
-            script: ['Great Vibes', 'cursive'],
-          },
-          colors: {
-            brown: '#7a3b26',
-          }
+    <!-- Tailwind config -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        serif: ['Playfair Display', 'serif'],
+                        script: ['Great Vibes', 'cursive'],
+                    },
+                    colors: {
+                        brown: '#7a3b26',
+                    }
+                }
+            }
         }
-      }
-    }
-  </script>
+    </script>
 </head>
+
 <body class="bg-white text-black font-serif">
 
-  <main class="min-h-screen flex items-center justify-center px-6">
-    <div class="max-w-md w-full text-center py-16">
+    <main class="min-h-screen flex items-center justify-center px-6">
+        <div class="max-w-md w-full text-center py-16">
 
-      <!-- Intro -->
-      <p class="text-xl mb-10">
-        ¡Nos casamos!
-      </p>
+            <!-- Intro -->
+            <p class="text-xl mb-10">
+                ¡Nos casamos!
+            </p>
 
-      <!-- Names -->
-      <div class="flex justify-center mb-12">
-        <img
-          src="1.png"
-          alt="LuciayCarlos"
-          class="w-80"
-        />
-      </div>
-      <!-- Details -->
-      <div class="text-xl mb-12">
-        <p class="font-semibold mb-2">
-          Sábado 16 de Mayo de 2026
-        </p>
-        <p>Castillo del Buen Amor</p>
-        <p>(Topas, Salamanca)</p>
-      </div>
+            <!-- Names -->
+            <div class="flex justify-center mb-12">
+                <img src="1.png" alt="LuciayCarlos" class="w-80" />
+            </div>
+            <!-- Details -->
+            <div class="text-xl mb-12">
+                <p class="font-semibold mb-2">
+                    Sábado 16 de Mayo de 2026
+                </p>
+                <p>Castillo del Buen Amor</p>
+                <p>(Topas, Salamanca)</p>
+            </div>
 
-      <!-- Wheat icon -->
-      <div class="flex justify-center mb-12">
-        <img
-          src="2.png"
-          alt="Trigo"
-          class="w-24"
-        />
-      </div>
+            <!-- Wheat icon -->
+            <div class="flex justify-center mb-12">
+                <img src="2.png" alt="Trigo" class="w-24" />
+            </div>
 
-      <!-- RSVP button -->
-      <a
-        href="#rsvp"
-        class="inline-block bg-brown font-semibold
-               px-10 py-4 rounded-2xl tracking-wide
-               hover:opacity-90 transition"
-      >
-        CONFIRMAR ASISTENCIA
-      </a>
+            <!-- RSVP button -->
+            <div class="mt-16">
+                <a href="#rsvp" class="inline-block bg-[#7a3b26] text-white font-semibold
+             px-10 py-4 rounded-2xl tracking-wide
+             hover:bg-[#6a3321] transition">
+                    CONFIRMAR ASISTENCIA
+                </a>
+            </div>
 
-      <!-- More info -->
-      <div class="mt-16">
-        <span class="text-brown font-semibold relative inline-block">
-          MÁS INFORMACIÓN
-          <span class="block h-[2px] bg-brown mt-1"></span>
-        </span>
-      </div>
-
-    </div>
-  </main>
+            <!-- More info -->
+            <div class="mt-6">
+                <a href="#info" class="inline-block text-[#7a3b26] font-semibold
+             tracking-wide border-b-2 border-[#7a3b26]
+             pb-1 hover:opacity-80 transition">
+                    MÁS INFORMACIÓN
+                </a>
+            </div>
+        </div>
+    </main>
 
 </body>
+
 </html>
