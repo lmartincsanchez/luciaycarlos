@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
-
+<html lang="es" class="scroll-smooth">
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -35,49 +34,313 @@
 
 <body class="bg-white text-black font-serif">
 
-    <main class="min-h-screen flex items-center justify-center px-6">
-        <div class="max-w-sm mx-auto px-6 py-24 text-center">
+    <main class="min-h-screen flex flex-col">
 
-            <!-- Intro -->
-            <p class="text-xl mb-10">
-                ¡Nos casamos!
-            </p>
+        <section class="flex items-center justify-center px-6 min-h-screen">
 
-            <!-- Names -->
-            <div class="flex justify-center mb-12">
-                <img src="1.png" alt="LuciayCarlos" class="w-128" />
-            </div>
-            <!-- Details -->
-            <div class="text-[1.35rem] leading-relaxed mb-14">
-                <p class="font-semibold">Sábado 16 de Mayo de 2026</p>
-                <p>Castillo del Buen Amor</p>
-                <p>(Topas, Salamanca)</p>
-              </div>
-              
 
-            <!-- Wheat icon -->
-            <div class="flex justify-center mb-12">
-                <img src="2.png" alt="Trigo" class="w-32 mx-auto" />
-            </div>
+            <div class="max-w-sm mx-auto px-6 py-24 text-center">
 
-            <!-- RSVP button -->
-            <div class="mt-16">
-                <a href="#rsvp" class="inline-block bg-[#7a3b26] text-white font-semibold
+                <!-- Intro -->
+                <p class="text-xl mb-10">
+                    ¡Nos casamos!
+                </p>
+
+                <!-- Names -->
+                <div class="flex justify-center mb-12">
+                    <img src="1.png" alt="LuciayCarlos" class="w-128" />
+                </div>
+                <!-- Details -->
+                <div class="text-[1.35rem] leading-relaxed mb-14">
+                    <p class="font-semibold">Sábado 16 de Mayo de 2026</p>
+                    <p>Castillo del Buen Amor</p>
+                    <p>(Topas, Salamanca)</p>
+                </div>
+
+
+                <!-- Wheat icon -->
+                <div class="flex justify-center mb-12">
+                    <img src="2.png" alt="Trigo" class="w-32 mx-auto" />
+                </div>
+
+                <!-- RSVP button -->
+                <div class="mt-16">
+                    <a href="#rsvp" class="inline-block bg-[#7a3b26] text-white font-semibold
                 px-12 py-5 text-base rounded-2xl tracking-wide
              hover:bg-[#6a3321] transition">
-                    CONFIRMAR ASISTENCIA
-                </a>
-            </div>
+                        CONFIRMAR ASISTENCIA
+                    </a>
+                </div>
 
-            <!-- More info -->
-            <div class="mt-6">
-                <a href="#info" class="inline-block text-[#7a3b26] font-semibold
+                <!-- More info -->
+                <div class="mt-6">
+                    <a href="#info" class="inline-block text-[#7a3b26] font-semibold
              tracking-wide border-b-2 border-[#7a3b26]
              pb-1 hover:opacity-80 transition">
-                    MÁS INFORMACIÓN
-                </a>
+                        MÁS INFORMACIÓN
+                    </a>
+                </div>
             </div>
-        </div>
+        </section>
+
+        <section id="info" class="bg-white py-24 px-6">
+            <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+
+                <!-- Image -->
+                <div>
+                    <img src="3.jpg" alt="Lucía y Carlos" class="w-full h-auto object-cover" />
+                </div>
+
+                <!-- Text -->
+                <div class="text-left">
+
+                    <h2 class="text-3xl md:text-4xl font-serif text-[#7a3b26] mb-6">
+                        ¡Ya era hora!
+                    </h2>
+
+                    <div class="text-lg leading-relaxed space-y-6">
+                        <p>
+                            Ya llevamos unos años diciendo que "pronto, pronto", así que hemos
+                            decidido que el próximo 16 de Mayo de 2026 nos casamos y nada nos hace
+                            más ilusión que pasar el día con vosotros.
+                        </p>
+
+                        <p>
+                            Más abajo os dejamos toda la información. Únicamente os pedimos que le
+                            deis al botón de <strong>"Confirmar asistencia"</strong> ahí arriba y
+                            nos contestéis un par de preguntas.
+                        </p>
+
+                        <p>
+                            Nos vemos dentro de nada, ¡un abrazo!
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="logistica" class="bg-white py-24 px-6">
+            <div class="max-w-3xl mx-auto text-center">
+
+                <!-- Title -->
+                <h2 class="text-4xl md:text-5xl font-serif text-[#7a3b26] mb-16">
+                    La logística
+                </h2>
+
+                <!-- Alojamiento -->
+                <div class="mb-16">
+                    <h3 class="text-2xl font-serif mb-6">
+                        🛏️ Alojamiento 🛏️
+                    </h3>
+                    <p class="text-lg leading-relaxed">
+                        La noche del sábado tendremos las habitaciones del castillo disponibles,
+                        aunque son limitadas. Si os interesa quedaros en el castillo, poneos en
+                        contacto con nosotros cuanto antes.
+                    </p>
+                </div>
+
+                <!-- Autobuses -->
+                <div class="mb-16">
+                    <h3 class="text-2xl font-serif mb-6">
+                        🚌 Autobuses 🚌
+                    </h3>
+
+                    <div class="text-lg leading-relaxed space-y-6">
+                        <p>
+                            El Castillo está a unos 20 minutos de Salamanca en coche (25km), así que
+                            el día de la boda tendremos autobuses disponibles tanto para ir como
+                            para volver.
+                        </p>
+
+                        <p>
+                            Para ir, a las 17:15 frente a la biblioteca de Gabriel y Galán.
+                        </p>
+
+                        <p>
+                            Para volver, a la 1:00 y a las 5:00, con paradas en Gran Vía y en
+                            Gabriel y Galán.
+                        </p>
+
+                        <p>
+                            Si crees que vas a necesitarlo, háznoslo saber en el formulario de
+                            confirmación.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Vienes desde fuera -->
+                <div>
+                    <h3 class="text-2xl font-serif mb-6">
+                        🚆 ¿Vienes desde fuera? ✈️
+                    </h3>
+
+                    <p class="text-lg leading-relaxed">
+                        Si no conocéis Salamanca y queréis pasar el fin de semana en la ciudad,
+                        podéis llegar el viernes y aprovechar para dar un paseo por la Plaza
+                        Mayor y la Rúa hasta la Plaza de Anaya; la ciudad tiene uno de los cascos
+                        históricos mejor iluminados.
+                        <br /><br />
+                        Al día siguiente, por la mañana antes de la boda podéis ver la mayor
+                        parte de la ciudad: visitar la fachada de la Universidad, entrar en la
+                        catedral, …
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="evento" class="bg-white py-24 px-6">
+            <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
+
+                <!-- Left column -->
+                <div class="text-left">
+                    <h2 class="text-4xl md:text-5xl font-serif text-[#7a3b26] mb-6">
+                        El día del evento
+                    </h2>
+
+                    <p class="text-xl font-semibold underline underline-offset-4 mb-10">
+                        Sábado 16 de Mayo de 2026
+                    </p>
+
+                    <img src="4.jpg" alt="Castillo del Buen Amor" class="w-full h-auto object-cover" />
+                </div>
+
+                <!-- Right column -->
+                <div class="text-center md:text-left space-y-10">
+
+                    <div>
+                        <h3 class="text-2xl font-serif mb-3">
+                            💍 La ceremonia 💍
+                        </h3>
+                        <p class="text-lg leading-relaxed">
+                            A las seis os esperamos en el Castillo del Buen Amor para comenzar el
+                            día con la ceremonia civil.
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3 class="text-2xl font-serif mb-3">
+                            🍸🎻 Cóctel 🎻🍸
+                        </h3>
+                        <p class="text-lg leading-relaxed">
+                            El cóctel será en los patios del castillo. Algo de beber, ir abriendo
+                            boca, y tiempo para ponerse al día con familiares y amigos.
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3 class="text-2xl font-serif mb-3">
+                            🍽️ Cena 🍽️
+                        </h3>
+                        <p class="text-lg leading-relaxed">
+                            Dejad hueco en el estómago, que después pasamos al interior para
+                            continuar con la cena.
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3 class="text-2xl font-serif mb-3">
+                            🎸💃🕺 La fiesta 🍻🎶
+                        </h3>
+                        <p class="text-lg leading-relaxed">
+                            ¡Y comienza la barra libre! Música y hasta que el cuerpo aguante.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section id="faq" class="bg-white py-24 px-6">
+            <div class="max-w-3xl mx-auto text-center">
+
+                <!-- Title -->
+                <h2 class="text-4xl md:text-5xl font-serif text-[#7a3b26] mb-8">
+                    ¿Alguna duda?
+                </h2>
+
+                <p class="text-lg mb-16">
+                    Si tenéis cualquier pregunta no dudéis en escribirnos, pero dejamos algunas
+                    preguntas que podrían surgir
+                </p>
+
+                <!-- FAQ items -->
+                <div class="space-y-12 text-left">
+
+                    <div>
+                        <h3 class="font-semibold text-lg mb-2">
+                            ¿Puedo llevar acompañante?
+                        </h3>
+                        <p class="leading-relaxed">
+                            ¿Has conocido a alguien en el último momento y estás seguro que es la
+                            persona de tu vida? ¡Pues qué mejor momento para presentarlo a todo el
+                            mundo! Ház­noslo saber en el formulario de confirmación.
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3 class="font-semibold text-lg mb-2">
+                            ¿Están permitidos los niños?
+                        </h3>
+                        <p class="leading-relaxed">
+                            ¿Eh? Claro
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3 class="font-semibold text-lg mb-2">
+                            ¿Dónde puedo aparcar?
+                        </h3>
+                        <p class="leading-relaxed">
+                            Si vienes en coche y nos prometes que no te vas a dejar llevar demasiado
+                            por la fiesta... en el Castillo del Buen Amor no hay problema para
+                            aparcar.
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3 class="font-semibold text-lg mb-2">
+                            ¿La boda será en interior o exterior? ¿Hará frío? ¿Qué me pongo?
+                        </h3>
+                        <p class="leading-relaxed">
+                            Si el tiempo acompaña el cóctel será en exterior y la cena en interior.
+                            Algunas zonas del castillo no son especialmente cómodas con tacones de
+                            aguja, así que prioriza la comodidad.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section id="rsvp" class="bg-white py-24 px-6">
+            <div class="max-w-3xl mx-auto text-center">
+          
+              <h2 class="text-4xl md:text-5xl font-serif text-[#7a3b26] mb-8">
+                Confirmar asistencia
+              </h2>
+          
+              <p class="text-lg mb-16">
+                Nos hará mucha ilusión contar contigo. Por favor, rellena el formulario
+                para confirmar tu asistencia.
+              </p>
+          
+              <div class="w-full overflow-hidden rounded-xl border">
+                <iframe
+                  src="https://luciaycarlos.anrsvp.com/es?embed=True"
+                  class="w-full h-[900px] border-0"
+                  loading="lazy"
+                  title="Confirmar asistencia"
+                ></iframe>
+              </div>
+          
+            </div>
+          </section>
+          
+
     </main>
 
 </body>
